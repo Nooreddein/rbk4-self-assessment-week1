@@ -28,11 +28,11 @@ Academic dishonesty is any time you purposefully make it difficult to correctly 
 ## Grading Outline
 
 - [ ] Hash Tables = "i think"completde
-- [ ] Queue vs. Stack
+- [ ] Queue vs. Stack = half completed 
 - [ ] Stack.add = completed
 - [ ] Stack.remove = completed
-- [ ] Array.first
-- [ ] Array.last
+- [ ] Array.first = attempted
+- [ ] Array.last = attempted
 
 ## Self-Grading Process
 
