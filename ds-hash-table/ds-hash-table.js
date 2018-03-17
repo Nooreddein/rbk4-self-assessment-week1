@@ -5,11 +5,18 @@ var makeHashTable = function() {
     return {
       _storage: [],
       retrieve: function(key) {
-        return this._storage[hashFn(key, max)];
+      // check if there is a key in this array "index"
+      // then pop it out and return it
+      if(this._storage[hashFn(key, max)]){
+       return this._storage[hashFn(key, max)]
+      }
+      //  this._storage.pop(this._storage[hashFn(key, max)];)
+       return "there is no such item"
       },
 
       insert: function(key, value) {
         //your code is here
+        //push values to the generated index
         this._storage[hashFn(key, max)] = value;
     }
   }
